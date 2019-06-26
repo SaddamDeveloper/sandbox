@@ -7,10 +7,18 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="<?php echo URLROOT ?>/css/style.css">
     <link rel="stylesheet" href="<?php echo URLROOT ?>/css/reset.css">
-    <title><?php echo APPNAME ?></title>
+    <title><?php echo APPNAME ?> | <?php echo DESCRIPTION ?></title>
 </head>
 <body>
 <div class="header">
+    <div class="container">
+        <a href="<?php echo URLROOT ?>">
+            <div class="brand-name">
+                <div class="brand-name2"></div>
+            </div>
+        </a>
+    </div>
 </div>
 <div class="container">
+
 

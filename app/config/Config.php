@@ -9,3 +9,4 @@
     define('APPROOT', dirname(dirname(__FILE__)));
     define('URLROOT', 'http://localhost/sandbox');
     define('APPNAME', 'প্ৰবাহ');
+    define('DESCRIPTION', 'হৃদয়ৰ পৰা হৃদয়লৈ');
