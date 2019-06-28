@@ -74,6 +74,14 @@ input {
     width: 154px;
     height: 77px;
 }
+.login-logo{
+    margin-top: 15px;
+    margin-left: 20px;
+    background: url('../images/login_logo.png') no-repeat;
+    background-size: 154px 77px;
+    width: 154px;
+    height: 77px;
+}
 .flower {
     margin-top: 25px;
     background:url('../images/flower.png') no-repeat;
@@ -109,9 +117,80 @@ input {
     border-bottom: 1px solid rgba(0,0,0,.125);
     word-wrap: break-word;
 }
+.card-body{
+    flex: 1 1 auto;
+    padding: 1.25rem;
+}
+.form-group {
+    margin-bottom: 1rem;
+}
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+input[type=password], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+.button {
+    display: inline-block;
+    border-radius: 4px;
+    background-color: #f4511e;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 24px;
+    padding: 8px;
+    width: 100%;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+}
+
+.button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+.button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+.button:hover span {
+    padding-right: 25px;
+}
+
+.button:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+.mb-4 {
+    margin-top: 60px !important;
+}
 @media (max-width: 600px) {
-    .row {
-        -webkit-flex-direction: row;
-        flex-direction: row;
+    .login-logo{
+        display: none;
     }
+    .flower-2{
+        display: none;
+    }
+
 }
